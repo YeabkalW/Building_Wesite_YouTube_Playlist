@@ -1,0 +1,18 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+p {
+    color: aqua;
+
+  }
+
+h1 {
+    color: pink;
+    font-size: 70px;
+    font-family: serif;
+
+}
