@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+
     color: #fff;
     font-size: 21px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -36,6 +37,7 @@ span {
 }
 
 /*this is the css box model*/
+/* which has 3 parts Margin, padding, borders */
 
 .box {
     background: white;
@@ -45,5 +47,17 @@ span {
     border-color:yellow ;
     border-width: 10px;
     border-style: solid;
-    padding: 100px 200px 1000px 100px;
+    padding: 100px 100px 100px 100px;
+
+
+/* adding background imagie and placing it*/
+/* the more padding you have the more background you have*/
+
+    background-image: url(../img/car.jpg);
+    background-size: contain;
+    background-size: cover;
+
+    /*positioning center , right, left, bottom */
+
+    background-position: bottom right;
 }
