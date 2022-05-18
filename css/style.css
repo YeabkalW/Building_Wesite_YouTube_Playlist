@@ -34,3 +34,16 @@ span {
 #bottom-section {
     background-color: aquamarine;
 }
+
+/*this is the css box model*/
+
+.box {
+    background: white;
+    width:  400px;
+
+    margin: 100px 500px 258px 100px;
+    border-color:yellow ;
+    border-width: 10px;
+    border-style: solid;
+    padding: 100px 200px 1000px 100px;
+}
