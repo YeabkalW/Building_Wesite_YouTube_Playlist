@@ -4,7 +4,7 @@ body {
     color: #fff;
     font-size: 21px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+    text-align: left;
     }
 
 
@@ -20,6 +20,7 @@ h1 {
     color: black;
     font-size: 70px;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
+    text-align: center;
 
     }
 
@@ -137,4 +138,16 @@ ul li {
     margin-bottom: 50px;
 
 
+}
+
+/* float and clear*/
+
+.img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#bottom-section {
+    clear: both;
 }
