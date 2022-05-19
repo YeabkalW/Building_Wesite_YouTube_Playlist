@@ -16,9 +16,9 @@ p {
 
 
 h1 {
-    color: pink;
+    color: white;
     font-size: 70px;
-    font-family: serif;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
 
     }
 
@@ -30,6 +30,7 @@ span {
 
 .top-section {
     background-color: aqua;
+    
 }
 
 #bottom-section {
@@ -60,4 +61,27 @@ span {
     /*positioning center , right, left, bottom */
 
     background-position: bottom right;
+
+    /*font styling*/
+
+    font-family: ahoma, Verdana, Segoe, sans-serif;
+}
+
+a {
+    color:aqua;
+    text-decoration: none;
+
+}
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: beige;
+}
+a:active {
+    color: green;
 }
