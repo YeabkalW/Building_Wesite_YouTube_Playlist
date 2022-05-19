@@ -1,9 +1,10 @@
 body {
-    background-color: #000;
+    background-color: #fff;
 
     color: #fff;
     font-size: 21px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
     }
 
 
@@ -16,7 +17,7 @@ p {
 
 
 h1 {
-    color: white;
+    color: black;
     font-size: 70px;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
 
@@ -29,7 +30,7 @@ span {
 }
 
 .top-section {
-    background-color: aqua;
+    background-color: grey;
     
 }
 
@@ -84,4 +85,56 @@ a:hover {
 }
 a:active {
     color: green;
+}
+
+/* staring to be very specific on selecting portions of a html document*/
+
+.top-section p {
+    color: brown;
+    padding: 100px;
+}
+
+.top-section a {
+    color: white;
+    text-decoration: line-through;
+    
+}
+
+.top-section a:hover {
+    color: yellow;
+}
+
+
+/* experimenting with lists*/
+
+/* these are ordered lists*/
+ol {
+    color:black;
+    list-style-type:decimal;
+    list-style-position: inside;
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+ol li {
+    background-color: blueviolet;
+    margin-bottom: 50px;
+
+}
+
+/* these are unordered lists*/
+ul {
+    color: black;
+    background-color: aquamarine;
+    list-style-position: inside;
+    padding: 50px;
+    list-style-type: georgian;
+}
+
+/* manuplating specific list items inside the un-ordered list*/
+ul li {
+    background-color: blueviolet;
+    margin-bottom: 50px;
+
+
 }
