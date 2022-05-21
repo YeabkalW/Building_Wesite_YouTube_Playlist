@@ -1,0 +1,46 @@
+body {
+    background-color: #CDE780;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+header {
+    background-color: #59594A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+    
+
+}
+
+section {
+    float: left;
+    width: 70%;
+    background-color: #cde814;
+    margin-bottom: 100px;
+    
+}
+
+aside {
+    background-color: #cde814;
+    float: right;
+    width: 25%  ;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #59594A;
+    color: #ffffff;
+    padding: 50px 0;
+}
